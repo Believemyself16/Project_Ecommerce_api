@@ -1,0 +1,21 @@
+﻿# Bỏ qua thư mục bin và obj (thường là thư mục build)
+bin/
+obj/
+
+# Bỏ qua file cấu hình của Visual Studio
+.vs/
+.idea/
+
+# Bỏ qua file cấu hình cá nhân
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Bỏ qua file cấu hình môi trường
+appsettings.json
+appsettings.Development.json
+
+# Bỏ qua file nhị phân
+*.dll
+*.exe
